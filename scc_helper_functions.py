@@ -69,7 +69,6 @@ def load_dataframe_asc(file):
 
   return(df)
 
-
 def load_dataframe_csv(file):
   df = pd.read_csv(file)
   return df
@@ -189,10 +188,11 @@ def channel_properties(voltage_list, unitary_current_list):
   plt.axvline(x=0, color = 'black')
   plt.axhline(y=0, color = 'black')
   plt.plot((-popt[1] / popt[0]), 0,  marker="o", markersize=20, color = 'gold')
-  plt.ylim()
+
+  plt.xlabel('Voltage (mV)', fontsize = 15)
+  plt.ylabel('Current(pA)', fontsize = 15)
+
   reveral_pot = -popt[1] / popt[0]
   print('Reversal potential =', round(reveral_pot, 4), 'mV')
   print('Sigle channel conductance =', round(popt[0]*10**3, 4), 'pS')
-
-
 
