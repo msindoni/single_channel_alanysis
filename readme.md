@@ -4,21 +4,21 @@ This notebook is meant to be used as a tool to learn about the process of analys
 # **Examples**
 Visualize real electrophysiology data and identify single channel channel openings at various voltages.
 
-<img src="notebook_images/summary_plots.png" width=500>
+<img src="notebook_images/summary_plots.PNG" width=500>
 
 ***Fig 1:*** *Top trace: Voltages that were recorded at. Bottom three traces: raw current traces at different holding potentials with visable single channel opening events.*
 
 
 Generate current frequency histograms from single channel opening events with appropriate double Gaussian fits.
 
-<img src="notebook_images/current_frequency_histo_example.png" width=500>
+<img src="notebook_images/current_frequency_histo_example.PNG" width=500>
 
 
 ***Fig 2:*** *Frequency histogram showing all current values recorded from a single channel opening event. Pink and yellow overlay shows the Gaussian fit used to determine the absolute current passing through the channel at a given voltage*
 
 Determine reversal potential and single channel conductance from various single channel openings.
 
-<img src="notebook_images/graphed_data_example.png" width=500>
+<img src="notebook_images/graphed_data_example.PNG" width=500>
 
 
 ***Fig 3:*** *Ploted single channel current data which fit with a linear function showiing the reversal potential of the chanel of interest*
