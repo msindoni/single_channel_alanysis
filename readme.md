@@ -1,5 +1,5 @@
 # **Description**
-This notebook ie meant to be used as a tool to learn about the process of analysing data of single channel opening and closng events. Primarily, this notebook provides detailed explanation on how to determining a channels reversal potential and initary conductance from real electrophysiology data. To accomplish this, this notebook allows users to identify single channel opening events, generate current frequency histograms, plot single channel currents, and then calculate the reversal potential and unitary conductance of a specific ion channel.
+This notebook is meant to be used as a tool to learn about the process of analysing data of single channel opening and closng events. Primarily, this notebook provides detailed explanation on how to determining a channels reversal potential and initary conductance from real electrophysiology data. To accomplish this, this notebook allows users to identify single channel opening events, generate current frequency histograms, plot single channel currents, and then calculate the reversal potential and unitary conductance of a specific ion channel.
 
 # **Examples**
 Visualize real electrophysiology data and identify single channel channel openings at various voltages.
